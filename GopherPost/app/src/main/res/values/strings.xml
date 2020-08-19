@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">myapplicationnavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GopherPost</string>
+    <string name="nav_header_subtitle">gopherPost@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_feed">My Feed</string>
+    <string name="menu_leaderboards">Leaderboards</string>
+    <string name="menu_leaderboards_user_toggle">Users</string>
+    <string name="menu_leaderboards_group_toggle">Groups</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_post">Make A Post</string>
+    <string name="menu_tools">Mod Tools</string>
+    <string name="menu_sign_in">Sign In</string>
+    <string name="menu_sign_in_click">signIn</string>
+    <string name="menu_title">Welcome to GopherPost</string>
+    <string name="menu_user_name">username</string>
+    <string name="menu_password">password</string>
+    <string name="user_name_tool_bar">user name tool bar</string>
+    <string name="password_bar">password</string>
+    <string name="post_submit_confirmation">Yay, your post was submitted!</string>
+    <string name="event_favorite_button">Favorite</string>
+    <string name="event_rsvp_button">RSVP</string>
+    <string name="event_description_label">Description</string>
+    <string name="event_display_label">event_display</string>
+    <string name="event_title_label">event_title</string>
+    <string name="event_reject">Don\'t Accept</string>
+    <string name="event_approve">Accept</string>
+    <string name="accept_function">acceptEvent</string>
+    <string name="deny_function">denyEvent</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="blank_stack">No remaining posts to approve</string>
+    <string name="okay">okay</string>
+</resources>

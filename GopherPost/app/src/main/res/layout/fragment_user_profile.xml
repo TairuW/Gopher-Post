@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="261dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="251dp"
+                android:layout_height="153dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="77dp"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="82dp"
+                android:layout_marginRight="82dp"
+                android:layout_marginBottom="76dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/textView1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="156dp"
+                android:text="Active Since:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="136dp"
+                android:text="10/21/2019"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="96dp"
+                android:text="Points:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="77dp"
+                android:text="317"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="156dp"
+                android:text="Followers:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="136dp"
+                android:text="36"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="96dp"
+                android:text="Following:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="77dp"
+                android:text="37"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:layout_marginBottom="50dp"
+                android:text="Bart Johnson"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="218dp"
+                android:layout_marginRight="218dp"
+                android:layout_marginBottom="12dp"
+                android:text="Follow"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="82dp"
+                android:layout_marginRight="82dp"
+                android:layout_marginBottom="12dp"
+                android:text="Report"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="281dp"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/Recent_posts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recent Posts"
+                            android:textSize="35sp" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton2a"
+                            android:layout_width="120dp"
+                            android:layout_height="111dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="6dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginBottom="116dp"
+                            android:layout_toEndOf="@+id/imageView2b"
+                            android:layout_toRightOf="@+id/imageView1b"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cheers" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton2b"
+                            android:layout_width="120dp"
+                            android:layout_height="111dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="118dp"
+                            android:layout_toEndOf="@+id/imageButton2a"
+                            android:layout_toRightOf="@+id/imageButton2a"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/study" />
+
+                        <TextView
+                            android:id="@+id/textView2a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="32dp"
+                            android:text="Party\nTime: 21:00\nFriday"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView2b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="157dp"
+                            android:layout_marginRight="157dp"
+                            android:layout_marginBottom="32dp"
+                            android:text="Study\nTime: 09:00\nMonday"
+                            android:textSize="20sp" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/Recent_attended"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recently Attended Events"
+                    android:textSize="30sp"
+                    android:padding="8dp"/>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="190dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/imageView3a"
+                                android:layout_width="120dp"
+                                android:layout_height="111dp"
+                                android:src="@drawable/bowling" />
+                            <TextView
+                                android:id="@+id/textView3a"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Bowling\nTime: 13:00\nMonday"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="190dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/imageView3b"
+                                android:layout_width="120dp"
+                                android:layout_height="111dp"
+                                android:src="@drawable/cheers" />
+                            <TextView
+                                android:id="@+id/textView3b"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Party\nTime: 21:00\nTuesday"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="190dp"
+                            android:orientation="vertical">
+                            <ImageButton
+                                android:id="@+id/imageButton3c"
+                                android:layout_width="120dp"
+                                android:layout_height="111dp"
+                                android:src="@drawable/game"
+                                android:adjustViewBounds="true"
+                                android:scaleType="centerInside"
+                                android:background="#0000"/>
+                            <TextView
+                                android:id="@+id/textView3c"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Game\nTime: 20:00\nWednesday"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="190dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/imageView3d"
+                                android:layout_width="120dp"
+                                android:layout_height="111dp"
+                                android:src="@drawable/ping_pong" />
+                            <TextView
+                                android:id="@+id/textView3d"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Ping Pong\nTime: 11:00\nThursday"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="190dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/imageView3e"
+                                android:layout_width="120dp"
+                                android:layout_height="111dp"
+                                android:src="@drawable/pizza" />
+                            <TextView
+                                android:id="@+id/textView3e"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Free Food\nTime: 11:00\nFriday"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

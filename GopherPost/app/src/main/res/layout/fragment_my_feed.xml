@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_feed_frag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+        <TextView
+            android:id="@+id/text_my_feed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true">>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton1"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    app:srcCompat="@drawable/boy"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerInside"
+                                    android:background="#0000"/>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Bart\nJohnson"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/imageButton1a"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/game"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerInside"
+                                    android:background="#0000"/>
+                                <TextView
+                                    android:id="@+id/textView1c"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Game\nTime: 20:00\nWednesday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView1d"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/ping_pong" />
+                                <TextView
+                                    android:id="@+id/textView1d"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Ping Pong\nTime: 11:00\nThursday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView1e"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/pizza" />
+                                <TextView
+                                    android:id="@+id/textView1e"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Free Food\nTime: 11:00\nFriday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/girl"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerInside"
+                                    android:background="#0000"/>
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Cathy\nSmith"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView2d"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/ping_pong" />
+                                <TextView
+                                    android:id="@+id/textView2d"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Ping Pong\nTime: 11:00\nThursday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView2e"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/pizza" />
+                                <TextView
+                                    android:id="@+id/textView2e"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Free Food\nTime: 11:00\nFriday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/girl2"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerInside"
+                                    android:background="#0000"/>
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Dina\nSantiago"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView3a"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/bowling" />
+                                <TextView
+                                    android:id="@+id/textView3a"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Bowling\nTime: 13:00\nMonday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView3b"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/cheers" />
+                                <TextView
+                                    android:id="@+id/textView3b"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Party\nTime: 21:00\nTuesday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView3c"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/game" />
+                                <TextView
+                                    android:id="@+id/textView3c"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Game\nTime: 20:00\nWednesday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/girl3"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerInside"
+                                    android:background="#0000"/>
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Ada\nParker"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView4a"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/bowling" />
+                                <TextView
+                                    android:id="@+id/textView4a"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Bowling\nTime: 13:00\nMonday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView4c"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/game" />
+                                <TextView
+                                    android:id="@+id/textView4c"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Game\nTime: 20:00\nWednesday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/man"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerInside"
+                                    android:background="#0000"/>
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Frank\nMeyer"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView5b"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/cheers" />
+                                <TextView
+                                    android:id="@+id/textView5b"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Party\nTime: 21:00\nTuesday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView5c"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/game" />
+                                <TextView
+                                    android:id="@+id/textView5c"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Game\nTime: 20:00\nWednesday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView5d"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/ping_pong" />
+                                <TextView
+                                    android:id="@+id/textView5d"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Ping Pong\nTime: 11:00\nThursday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="190dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/imageView5e"
+                                    android:layout_width="120dp"
+                                    android:layout_height="111dp"
+                                    android:src="@drawable/pizza" />
+                                <TextView
+                                    android:id="@+id/textView5e"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:text="Free Food\nTime: 11:00\nFriday"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>>
+</LinearLayout>
